@@ -1,3 +1,56 @@
+# Homeward API Service
+
+This repository contains the Homeward API service, built using Django and Django Rest Framework. Follow the steps below to clone the repository, set up the environment, and run the tests.
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+- Python 3.8+
+- pip (Python package manager)
+- Virtualenv
+- Git
+
+## Cloning the Repository
+
+1. Open your terminal or command prompt.
+2. Clone the repository:
+    ```sh
+    git clone git@github.com:marcellhenrique/homeward.git
+    ```
+3. Navigate to the project directory:
+    ```sh
+    cd homeward
+    ```
+
+## Setting Up the Environment
+
+1. Create a virtual environment:
+    ```sh
+    python -m venv env
+    ```
+2. Activate the virtual environment:
+    - On macOS/Linux:
+        ```sh
+        source env/bin/activate
+        ```
+    - On Windows:
+        ```sh
+        .\env\Scripts\activate
+        ```
+3. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Running the Tests
+
+1. Ensure the virtual environment is activated.
+2. Run the tests using the Django test runner:
+    ```sh
+    python manage.py test
+    ```
+3. All tests should pass if the setup was successful.
+
 
 # Design Pattern Documentation
 
