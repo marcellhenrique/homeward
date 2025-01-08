@@ -106,7 +106,7 @@ This method retrieves the details of an agent associated with a given customer I
 }
 ```
 
-### 2. `get_agents_by_location`
+### 2. `get_agents_by_location(location)`
 This method retrieves a list of agents based on the provided location.
 
 #### Parameters:
