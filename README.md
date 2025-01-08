@@ -106,6 +106,31 @@ This method retrieves the details of an agent associated with a given customer I
 }
 ```
 
+### 2. `get_agents_by_location`
+This method retrieves a list of agents based on the provided location.
+
+#### Parameters:
+- `location` (str): A string containing the location (city/state) to filter the agents by.
+
+#### Returns:
+- A list of dictionaries containing details of agents located in the specified location.
+
+#### Example Response:
+```json
+{
+    "name": "Dana Agent",
+    "contact_info": "dana.agent@example.com",
+    "brokerage_name": "Super Realty",
+    "location": "Austin, TX"
+  },
+  {
+    "name": "Lawrence Agent",
+    "contact_info": "lawrence.agent@example.com",
+    "brokerage_name": "Dream Homes Realty",
+    "location": "Austin, TX"
+  }
+```
+
 
 # Agent Model Documentation
 
